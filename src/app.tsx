@@ -7,7 +7,7 @@ interface State {
 }
 
 export interface Props {
-  children: React.ReactNode;
+
 }
 
 export default class App extends React.Component<Props, State> {

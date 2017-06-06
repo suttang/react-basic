@@ -11,3 +11,15 @@ ReactDOM.render(
   </AppContainer>,
   container,
 );
+
+if (module.hot) {
+  module.hot.accept('./app', () => {
+    const NextApp = require('./app').default;
+    ReactDOM.render(
+      <AppContainer>
+        <NextApp/>
+      </AppContainer>,
+      container
+    );
+  });
+}
