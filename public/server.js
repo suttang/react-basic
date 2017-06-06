@@ -10,14 +10,14 @@ Object.keys(config.entry).forEach(key => {
   config.entry[key].unshift(
     // 'react-hot-loader/patch',
     // 変更を検知した後、webpack/hot/dev-serverに処理を委譲する
-    `webpack-dev-server/client?http://${host}:${port}`
+    `webpack-dev-server/client?http://${host}:${port}`,
     // HotModuleReplacementPluginにモジュールの更新を行わせる
-    // 'webpack/hot/dev-server'
+    'webpack/hot/dev-server'
   )
 })
 
 config.plugins = [
-  // new webpack.HotModuleReplacementPlugin(),
+  new webpack.HotModuleReplacementPlugin(),
   new webpack.NamedModulesPlugin()
 ]
 

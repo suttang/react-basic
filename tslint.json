@@ -16,9 +16,11 @@
     "triple-equals": true,
     "typedef": [true, "parameter"],
     "member-ordering": [false],
+    "member-access": [true],
     "interface-name": [true, "never-prefix"],
     "no-default-export": false,
-    "member-access": [true],
     "no-require-imports": false,
+    "prefer-function-over-method": false,
+    "prefer-method-signature": false
   }
 }
