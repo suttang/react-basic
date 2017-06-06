@@ -1,0 +1,24 @@
+{
+  "extends": "tslint:all",
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "no-console": [false],
+    "no-unused-expression": true,
+    "no-duplicate-variable": true,
+    "no-unused-variable": true,
+    "no-inferrable-types": [false],
+    "no-consecutive-blank-lines": [false],
+    "only-arrow-functions": [false],
+    "comment-format": [true, "check-space"],
+    "curly": true,
+    "class-name": true,
+    "semicolon": ["always"],
+    "triple-equals": true,
+    "typedef": [true, "parameter"],
+    "member-ordering": [false],
+    "interface-name": [true, "never-prefix"],
+    "no-default-export": false,
+    "member-access": [true],
+    "no-require-imports": false,
+  }
+}
