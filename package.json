@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:suttang/react-basic.git",
   "author": "suttang <suttang@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
 }
