@@ -6,11 +6,13 @@
   "author": "suttang <suttang@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --colors --config ./webpack.config.dev.js"
+    "build": "webpack --colors --config ./webpack.config.dev.js",
+    "serve": "node public/server.js"
   },
   "devDependencies": {
     "@types/react": "^15.0.27",
     "@types/react-dom": "^15.5.0",
+    "minimist": "^1.2.0",
     "ts-loader": "^2.1.0",
     "tslint": "^5.4.2",
     "typescript": "^2.3.4",
