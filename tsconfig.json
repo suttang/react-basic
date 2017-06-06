@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUnusedLocals" : true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "lib": ["dom", "es2017"],
+    "module": "es2015",
+    "target": "es5",
+    "jsx": "react"
+  },
+  "files": [
+    "./src/index.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
