@@ -1,0 +1,8 @@
+{
+  "name": "react-basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:suttang/react-basic.git",
+  "author": "suttang <suttang@gmail.com>",
+  "license": "MIT"
+}
