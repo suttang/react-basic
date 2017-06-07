@@ -9,9 +9,7 @@ const port = argv.port || 8000
 Object.keys(config.entry).forEach(key => {
   config.entry[key].unshift(
     'react-hot-loader/patch',
-    // 変更を検知した後、webpack/hot/dev-serverに処理を委譲する
     `webpack-dev-server/client?http://${host}:${port}`,
-    // HotModuleReplacementPluginにモジュールの更新を行わせる
     'webpack/hot/dev-server'
   )
 })
