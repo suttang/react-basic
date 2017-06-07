@@ -6,7 +6,7 @@ interface State {
   count: number;
 }
 
-export interface Props {
+interface Props {
 
 }
 
@@ -26,11 +26,11 @@ export default class App extends React.Component<Props, State> {
   }
 
 
-  increment = () => {
+  private increment = () => {
     this.setState({ count: this.state.count + 1 });
   }
 
-  decrement = () => {
+  private decrement = () => {
     this.setState({ count: this.state.count - 1 });
   }
 };

@@ -21,6 +21,7 @@
     "no-default-export": false,
     "no-require-imports": false,
     "prefer-function-over-method": false,
-    "prefer-method-signature": false
+    "prefer-method-signature": false,
+    "no-empty-interface": false
   }
 }

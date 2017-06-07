@@ -19,7 +19,7 @@ if (module.hot) {
       <AppContainer>
         <NextApp/>
       </AppContainer>,
-      container
+      container,
     );
   });
 }
