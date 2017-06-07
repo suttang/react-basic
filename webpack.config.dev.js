@@ -20,6 +20,13 @@ const webpackConfig = {
           { loader: 'ts-loader' },
         ],
       },
+      {
+        test: /\.scss$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'typings-for-css-modules-loader?modules&namedExport&camelCase&sass' }
+        ]
+      }
     ],
   },
 };
