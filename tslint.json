@@ -12,7 +12,7 @@
     "comment-format": [true, "check-space"],
     "curly": true,
     "class-name": true,
-    "semicolon": ["always"],
+    "semicolon": [true, "always"],
     "triple-equals": true,
     "typedef": [true, "parameter"],
     "member-ordering": [false],
@@ -22,6 +22,7 @@
     "no-require-imports": false,
     "prefer-function-over-method": false,
     "prefer-method-signature": false,
-    "no-empty-interface": false
+    "no-empty-interface": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
   }
 }

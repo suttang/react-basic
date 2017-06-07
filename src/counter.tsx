@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface Props {
-  count: number
+  count: number;
 }
 
 export default (props: Props) => (

@@ -13,7 +13,7 @@ interface Props {
 export default class App extends React.Component<Props, State> {
   public state: State = {
     count: 0,
-  }
+  };
 
   public render() {
     return (
@@ -22,7 +22,7 @@ export default class App extends React.Component<Props, State> {
         <Button label="increment" onClick={this.increment}></Button>
         <Button label="decrement" onClick={this.decrement}></Button>
       </div>
-    )
+    );
   }
 
 
@@ -33,4 +33,4 @@ export default class App extends React.Component<Props, State> {
   private decrement = () => {
     this.setState({ count: this.state.count - 1 });
   }
-};
+}
